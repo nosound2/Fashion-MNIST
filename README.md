@@ -20,8 +20,10 @@ The augmentations are:
 ResNet-18 takes 32 minutes to train and reaches test accuracy 92.41%
 MobileNet-v2 takes 23 minutes to train and reaches test accuracy 91.43%
 
+The system GPU is NVIDIA GeForce GTX 960M, CPU i7-6700HQ
+
 Potential improvements:
-1. Better training schedule: start from the beginning with the augmentations, use a learning rate schedule for example cosine annealing, train for longer.
+1. Better training schedule: start from the beginning with the augmentations, use a learning rate schedule (for example cosine annealing), train for longer.
 2. Augmentations: cutout, mixup
 3. Loss function: label smoothing, focal loss can be promising
 4. TTA - test time augmentations
